@@ -1,6 +1,6 @@
 # Matrix Hacker Toolkit 🧠💻
 
-A lightweight terminal toolkit for quick hacking utilities like IP tracing, Nmap scanning, and password cracking with John the Ripper — made for Kali Linux, Raspberry Pi, or any Unix-based system.
+A lightweight terminal toolkit for quick hacking utilities like IP tracing, Nmap scanning, and password cracking with John the Ripper — made for Kali Linux, Raspberry Pi, or any Linux-based system.
 
 ---
 
