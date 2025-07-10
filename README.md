@@ -1,50 +1,76 @@
-# Matrix Hacker Toolkit 🧠💻
+# Matrix Hacker Toolkit
 
-A lightweight terminal toolkit for quick hacking utilities like IP tracing, Nmap scanning, and password cracking with John the Ripper — made for Kali Linux, Raspberry Pi, or any Linux-based system.
+The **Matrix Hacker Toolkit** is a powerful bash script for Linux that brings together a collection of useful networking and hacking tools in a menu-driven interface. With this toolkit, you can run a Matrix-like effect on your terminal, gather IP information, ping hosts, run traceroutes, and use popular tools like John the Ripper and Hydra.
 
----
+## Features
 
-## 📥 Clone This Repo
+- **Matrix Effect**: Run a terminal Matrix-like effect to simulate the iconic green text animation.
+- **IP Information**: View detailed IP configuration information using `ip` or `ifconfig`.
+- **Ping a Host**: Easily ping any host with customizable parameters.
+- **Traceroute**: Perform a traceroute to a target to check the route your packets take.
+- **John the Ripper**: Launch John the Ripper for password cracking.
+- **Hydra**: Run Hydra for brute force attacks on various protocols.
 
-```bash
-git clone https://github.com/iHavebraincells/matrix.git
-cd matrix
+## Prerequisites
 
-▶️ Run the Toolkit
+Ensure you have the following installed on your Linux system:
 
-Make the script executable (only needed once):
+- `cmatrix` (for Matrix effect)
+- `ip` or `ifconfig` (for IP information)
+- `ping`
+- `traceroute`
+- `john` (John the Ripper)
+- `hydra` (Hydra)
 
-chmod +x matrix-toolkit.sh
+These can typically be installed via your package manager (e.g., `apt`, `yum`, `dnf`).
 
-Then run it:
+## Installation
 
-./matrix-toolkit.sh
+1. **Clone the repository**:
+   Open a terminal and run the following command to clone the repository to your local machine:
 
-🧰 Features
+   ```bash
+   git clone https://github.com/iHavebraincells/Matrix-Hacker-Toolkit.git
 
-    🌐 IP Tracer (curl ipinfo.io)
+    Navigate to the project directory:
 
-    🔓 John the Ripper (for password hash cracking)
+cd Matrix-Hacker-Toolkit
 
-    🔍 Nmap scanning (network discovery)
+Make the script executable:
 
-📦 Requirements
+chmod +x matrix_hacker_toolkit.sh
 
-    curl
+Run the script:
 
-    nmap
+    ./matrix_hacker_toolkit.sh
 
-    john (John the Ripper)
+Usage
 
-You can install them on Kali or Debian-based systems with:
+Once the script is running, you’ll be presented with a menu where you can choose from the following options:
 
-sudo apt install curl nmap john -y
+    [M] - Run Matrix Effect
 
-⚠️ Disclaimer
+    [I] - Show IP Information
 
-This toolkit is for educational and authorized testing purposes only. The author is not responsible for any misuse.
-📧 Contact
+    [P] - Ping a Host
 
-Made with 💀 by @iHavebraincells
+    [T] - Traceroute
 
-Pull requests welcome!
+    [J] - Run John the Ripper
+
+    [H] - Run Hydra
+
+    [Q] - Quit the script
+
+Use the number or letter corresponding to the desired action and press Enter.
+Example
+
+Here's an example of how to run the Matrix effect and ping a host:
+
+    Select M to run the Matrix effect.
+
+    Select P to ping a host, and enter a domain or IP.
+
+Contributing
+
+Feel free to contribute to this project! You can fork the repository, create a pull request, or report issues. If you'd like to add additional tools, let me know!
